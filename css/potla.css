@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+header{
+    background-color: rgb(8,88, 151);
+    padding: 40px;
+}
+header nav {
+    width: 80%;
+    float: right;
+    margin-top: -15px;
+}
+header img{
+    float: left;
+    width: 5%;
+    margin-top: -22px;
+    margin-left: -10px;
+}
+header nav ul{
+    list-style-type:none ;
+    padding: 10px;
+}
+header nav ul li{
+    display: inline;
+    padding: 10px 20px;
+    margin: 0px 50px;
+
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+#faceicon{
+    color: rgb(235, 233, 245);
+    font-size: 22px;
+    width: auto;
+    padding-right: 10px;
+}
+#twiticon{
+    color: rgb(235, 233, 245);
+    font-size: 22px;
+    width: auto;
+    padding-right: 10px;
+}
+
+.banner{
+    background-image: url(../img/banner.jpeg);
+    padding: 220px 0px;
+    clear: both;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services{
+    margin-top: 100px;
+    width: 100%;
+}
+.services h2{
+    color: rgb(58, 59, 132);
+    text-align: center;
+    margin-bottom:60px ;
+}
+.services .container{
+    width: 70%;
+    margin: 0px auto;
+}
+.services .container figure{
+    width: 30%;
+    float: left;
+    padding:10px 100px ;
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+.services .container figure img{
+    width: 100%;
+}
+.services .container figure figcaption{
+    text-align: center;
+    background-color: rgb(58, 108, 181);
+    font-size: 20px;
+    margin-top: -4px;
+    padding: 15px 0px;
+}
+.services .container figure figcaption a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section.form{
+    width: 70%;
+    margin: auto;
+    
+}
+section.form form{
+    width: 50%;
+    float:left;
+}
+section.form form div label{
+    color: rgb(45, 44, 50);
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section.form form input[type=text],[type=email], textarea{
+    border: solid 1px rgb(216, 216, 216) ;
+    background-color: rgb(216, 216, 216);
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+section.form form div input[placeholder=NAME]{
+    width: 100%;
+}
+section.form form div div input[placeholder=SUBJECT],[placeholder=EMAIL]{
+    width: 100%;
+}
+section.form form div div{
+    width: 45%;
+}
+section.form form div div.subject{
+    float: right;
+    padding-left: 10px;
+}
+section.form form div div.email{
+    float: left;
+}
+
+section.form form div.message{
+    position: relative;
+}
+section.form form textarea{
+    width: 100%;
+    resize: none;
+    height: 190px;
+}
+section.form form input[type=submit]{
+    position: absolute;
+    padding: 12px;
+    background-color: rgb(244, 137, 41);
+    color: #fff;
+    border: solid 1px rgb(244, 137, 41);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 70%;
+    left: 73%;    
+}
